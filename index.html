@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Recipes Collection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Delicious Recipes Collection</h1>
+        <p>Discover mouthwatering recipes for every occasion</p>
+    </header>
+    
+    <main>
+        <section class="search-filter">
+            <input type="text" id="recipe-search" placeholder="Search recipes...">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Recipes</button>
+                <button class="filter-btn" data-filter="main">Main Dishes</button>
+                <button class="filter-btn" data-filter="dessert">Desserts</button>
+                <button class="filter-btn" data-filter="breakfast">Breakfast</button>
+            </div>
+        </section>
+
+        <section class="recipe-grid">
+            <div class="recipe-card" data-category="main">
+                <div class="recipe-tag">Main Dish</div>
+                <img src="images/carbonara.jpg" alt="Pasta Carbonara" class="recipe-thumbnail">
+                <h2>Pasta Carbonara</h2>
+                <p>A creamy Italian classic with bacon and Parmesan cheese.</p>
+                <div class="recipe-meta-brief">
+                    <span>25 min</span>
+                    <span>•</span>
+                    <span>Intermediate</span>
+                </div>
+                <a href="carbonara.html" class="view-button">View Recipe</a>
+            </div>
+            
+            <div class="recipe-card" data-category="main">
+                <div class="recipe-tag">Main Dish</div>
+                <img src="images/tikka-masala.jpg" alt="Chicken Tikka Masala" class="recipe-thumbnail">
+                <h2>Chicken Tikka Masala</h2>
+                <p>Tender chicken in a rich, spiced tomato and cream sauce.</p>
+                <div class="recipe-meta-brief">
+                    <span>45 min</span>
+                    <span>•</span>
+                    <span>Intermediate</span>
+                </div>
+                <a href="tikka-masala.html" class="view-button">View Recipe</a>
+            </div>
+            
+            <div class="recipe-card" data-category="breakfast">
+                <div class="recipe-tag">Breakfast</div>
+                <img src="images/bowl.jpg" alt="Berry Smoothie Bowl" class="recipe-thumbnail">
+                <h2>Berry Smoothie Bowl</h2>
+                <p>A nutritious and colorful breakfast loaded with antioxidants.</p>
+                <div class="recipe-meta-brief">
+                    <span>10 min</span>
+                    <span>•</span>
+                    <span>Easy</span>
+                </div>
+                <a href="smoothie-bowl.html" class="view-button">View Recipe</a>
+            </div>
+            
+            <div class="recipe-card" data-category="dessert">
+                <div class="recipe-tag">Dessert</div>
+                <img src="images/cake.jpg" alt="Chocolate Lava Cake" class="recipe-thumbnail">
+                <h2>Chocolate Lava Cake</h2>
+                <p>Decadent dessert with a warm, gooey chocolate center.</p>
+                <div class="recipe-meta-brief">
+                    <span>20 min</span>
+                    <span>•</span>
+                    <span>Intermediate</span>
+                </div>
+                <a href="lava-cake.html" class="view-button">View Recipe</a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Delicious Recipes Collection</p>
+        <p>Created with ❤️ for food lovers everywhere</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
