@@ -4,7 +4,7 @@ A simple and responsive recipe collection website built using HTML, CSS and Java
 This project showcases different food recipes with dedicated pages and a clean, user-friendly UI.
 
 ## 🚀 Live Demo
-🔗 https://recipe-dev-alakh.netlify.app/
+🔗 https://alakhhawk47.github.io/receipe-collection-website/
 
 ## 📌 Features
 - Multi-page recipe website
@@ -38,4 +38,7 @@ This project was created to practice frontend web development and improve skills
 
 ## 👨‍💻 Author
 **Alakh Raj Singh**  
-GitHub: https://github.com/alakhhawk47
+B.Tech EC – JSS Academy of Technical Education, Noida
+
+## GitHub: 
+🔗 https://github.com/alakhhawk47
