@@ -21,12 +21,18 @@ This project showcases different food recipes with dedicated pages and a clean, 
 - Netlify (Deployment)
 
 ## 📂 Project Structure
+recipe-collection-website
+│── index.html
+│── styles.css
+│── script.js
+│── carbonara.html
+│── lava-cake.html
+│── smoothie-bowl.html
+│── tikka-masala.html
+│── images/
 
 ## 📷 Screenshot
-(Add screenshot of homepage here)
-
-After uploading screenshot in repo, add:
-![Screenshot](screenshot.png)
+![Screenshot](Screenshot_20260220_130526.jpg)
 
 ## 💻 How to Run Locally
 1. Clone the repository
